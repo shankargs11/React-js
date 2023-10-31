@@ -1,0 +1,18 @@
+<script>
+
+    function* iceCreamGiver(){
+    
+        yield "icream 1"
+        yield "icream 2"
+        yield "icream 3"
+    
+    }
+    let joth=iceCreamGiver()
+    console.log("jhoti",joth.next())
+    console.log("jhoti",joth.next())
+    console.log("jhoti",joth.next())
+    console.log("jhoti",joth.next())
+    console.log("person one",iceCreamGiver().next())
+    console.log("person two",iceCreamGiver().next())
+    
+    </script>
